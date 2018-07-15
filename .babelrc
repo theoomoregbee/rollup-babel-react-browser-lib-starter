@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["last 2 versions", "safari >= 7"]
+      },
+	  "modules": false
+    }], "react"
+  ],
+ "plugins": [
+    "external-helpers",
+    "transform-runtime",
+    "transform-async-to-generator",
+    "transform-object-rest-spread"
+  ]
+}

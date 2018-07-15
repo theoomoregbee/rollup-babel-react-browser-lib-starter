@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Library </title>
+  <script src="dist/library.js"></script>
+</head>
+<body>
+  Test Library
+  <button class="btn"> Trigger </button>
+  <button class="btn"> test 2</button>
+
+  <script>
+    function success (param){
+      alert('Done with success, check console');
+      console.log(param)
+    }
+
+    new LibraryName('.btn', success, {play:'save a variable'});
+  </script>
+</body>
+</html>
