@@ -7,7 +7,6 @@ This is a starter pack for building **maintanable** browser library with
 ## Use Cases
 * **Image previewer**: Where you can trigger a complex image previewer with a particular class name or selector
 * **Image Editor**: Complex image editor where including the distributed `.js` does the trick, like the libraries created with JQuery
-* **Payment Forms**: To trigger a payment popup built with React 
 * **And So On**
 
 ## Babel Plugins Supported 
